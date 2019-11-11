@@ -27,7 +27,7 @@ function cleanText($string)
 {
     $string = trim($string);
     $string = stripslashes($string);
-  $string = htmlspecialchars($string);
+    $string = htmlspecialchars($string);
 
     return $string;
 }
@@ -71,10 +71,10 @@ function sendMailOut($emailTo, $emailFrom, $senderName, $subject, $message, $lan
 // can send out
 $isOkayToSendEmailOut  = true;
 
-$emailAddress      = '';
-$emailSenderName    = '';
-$emailMessage      = '';
-$emailSubject      = '';
+$emailAddress          = '';
+$emailSenderName       = '';
+$emailMessage          = '';
+$emailSubject          = '';
 $emailSystemAddress    = '';
 $emailStatusMessage    = '';
 
