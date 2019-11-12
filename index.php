@@ -9,6 +9,7 @@
   <title>Contact</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+  <link rel="stylesheet" href="css/styes.css">
 </head>
 
 <body>
@@ -21,6 +22,6 @@
         <p>hell my freind that me not join prewedding.</p>
 
     </div>
-
+    
 </body>
 </html>
