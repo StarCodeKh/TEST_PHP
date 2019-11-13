@@ -99,7 +99,7 @@ else
     $emailSenderName  = $_POST['name'];
 
     // validate name
-    if(preg_match("/[a-zA-Z'-]/", $emailSenderName))
+    if(preg_match("/^[a-zA-Z ]*$/", $emailSenderName))
     {
       $isOkayToSendEmailOut  = true;
     }
@@ -123,7 +123,7 @@ else
     $emailMessage  = $_POST['message'];
 
     // 
-    if(preg_match("/^[a-zA-Z0-9']/", $emailMessage))
+    if(preg_match("/^[a-zA-Z]*/", $emailMessage))
     {
       $isOkayToSendEmailOut  = true;
     }
@@ -148,7 +148,7 @@ else
 
 
 // filter email
-    if(preg_match("^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,7})$^", $emailAddress))
+    if(preg_match("/^([a-z0-9\+_\-]+)(\.[a-z0-9\+_\-]+)*@([a-z0-9\-]+\.)+[a-z]{2,7}$/", $emailAddress))
     {
       $isOkayToSendEmailOut  = true;
     }

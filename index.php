@@ -9,7 +9,7 @@
   <title>Contact</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
-  <link rel="stylesheet" href="css/styes.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -17,11 +17,10 @@
 <br>
 
     <div class ="Myclass text-center">
-
         <h1>Hello Khmer New Year 2020</h1>
-        <p>hell my freind that me not join prewedding.</p>
+        <span><p>hell my freind that me not join prewedding.</p></span>
 
     </div>
-    
+
 </body>
 </html>
